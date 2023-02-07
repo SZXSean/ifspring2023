@@ -1,0 +1,131 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-style:normal;
+    background-color:#D0D0CE;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+    align-items: center;
+}
+
+p{
+    color: #0510AA;
+}
+
+.heading{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    border-bottom: 3px dotted #0510AA;
+}
+
+h1{
+    color: white;
+    display:inline-flex;
+    text-shadow: 5px 5px #0510AA;
+}
+
+.font-size{
+    color: #0510AA;
+}
+
+#class{
+    font-size: 28px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+
+.subclass{
+    color:rgb(255, 255, 255);
+}
+
+.fw, .fs, .ls, .td, .tt{
+    border-bottom: 2px dotted #0510AA;
+}
+
+h1{
+    font-size:100px;
+}
+
+
+.Light{
+    font-weight:300;
+}
+
+.Regular{
+    font-weight:400;
+}
+
+.Medium{
+    font-weight:500;
+}
+
+.SemiBold{
+    font-weight: 600;
+}
+
+.Bold{
+    font-weight: 700;
+}
+
+.ExtraBold{
+    font-weight: 800;
+}
+
+h3{
+    font-size: 18px;
+}
+
+
+.normal{
+    font-style:normal;
+}
+
+.italic{
+    font-style:italic;
+}
+
+.expand{
+    letter-spacing: 0.3em;
+}
+
+.condense{
+    letter-spacing:-0.1em;
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+.lowercase{
+    text-transform:lowercase;
+}
+
+.capitalize{
+    text-transform:capitalize;
+}
+
+.underline{
+    text-decoration:underline;
+}
+
+.linethrough{
+    text-decoration: line-through;
+}
+
+.overline{
+    text-decoration:overline;
+}
+
+.dashed{
+    text-decoration:dashed overline;
+}
+
+.double{
+    text-decoration:double overline;
+}
+
+.dotted{
+    text-decoration:dotted overline;
+}
