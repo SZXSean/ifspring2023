@@ -1,0 +1,137 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+    background-image: url("../multi-panel-page/images/LG.jpg");
+    background-size: cover;
+    height: 480px;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  
+  h1 {
+    color: ivory;
+    font-size: 85px;
+    margin: 130px 0 0 0;
+  }
+  
+  h2 {
+    color: ivory;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  
+  h3 {
+    color:#F9F5E7;
+    text-align:center;
+    font-size: 42px;
+    margin-top: 18px;
+    margin-bottom: 30px;
+  }
+
+  #part1-title, #part3-title{
+    color:#A7727D;
+  }
+  
+  h4 {
+    color: #F9F5E7;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    color: #A7727D;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 18px;
+  }
+  
+  /* Main content section */
+  .part1 {
+    background-color: beige;
+    height: 720px;
+  }
+  
+  .part1 img {
+    float: right;
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+    margin: 0 0 30px 30px;
+  }
+  
+  .part2 {
+    background-color: #A7727D;
+  }
+  
+  .part2 .part2-img {
+    object-fit: cover;
+    width: 200px;
+    height: 150px;
+    margin-left: 0;
+    margin-right: 12px;
+  }
+  
+  .part2 .part2-text {
+    text-align: left;
+    padding: 5px 0;
+    width: 200px;
+  }
+  
+  .description {
+    color: #EDDBC7;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 10px;
+  }
+  
+  .part3 {
+    padding: 2px 0 55px 0;
+    background-color: #EDDBC7;
+  }
+  
+  .part3 p {
+    color: #A7727D;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    width: 720px;
+    margin: auto;
+  }
+  
+  ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0 48px 20px 0;
+  }
+  
+  .info {
+    margin: auto;
+    width: 980px;
+    padding: 20px 0;
+  }
+  
+  /* Footer */
+footer {
+    background-color: #F9F5E7;
+    padding-top: 2px;
+    margin: auto;
+  }
+  
+  footer p {
+    font-size: 18px;
+    margin: 30px 0 30px 0;
+    color: #A7727D;
+  }
