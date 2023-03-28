@@ -1,0 +1,636 @@
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	margin: 40px;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+#btn_coca-cola {
+    display: inline-block;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 40px;
+    width: 100px;
+    height: 60px;
+    color: white;
+    font-family: 'Coca Cola ii', sans-serif;
+    font-size: 24px;                                
+    background-color: #F40000;
+    border-radius: 1000px;
+    outline: 10px solid white;
+    outline-offset: -5px;
+    outline-style: dotted;
+    transition: 0.2s ease-in;
+}
+            
+#btn_coca-cola:hover {
+    color: #F40000;
+    background-color: white;
+    border:2px solid #F40000;
+}
+
+#btn_apple{
+    display:block;
+    background-color: rgb(227, 227, 227);
+    display:block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+            
+#btn_apple img {
+    width: 80px;
+    margin-top: 15px;
+}
+            
+#btn_apple:hover{
+    transition: all .6s;
+    background-color:white;
+    border: 3px solid black;
+}
+
+#btn_ibm{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display:block;
+    color:#002FA7;
+    background-color: white;
+    text-decoration: none;
+    width: 80px;
+	height: 60px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+	padding-top: 8px;
+    font-size: 36px;
+    text-align: center;
+    transition: all .5s;
+}
+
+#btn_ibm:hover{
+    background-color: #002FA7;
+    color: white;
+}
+
+#btn_kors {
+    margin: auto;
+    margin-top: 100px;
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+#btn_kors span {
+    position: relative;
+    z-index: 2;
+}
+
+#btn_kors:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #000000;
+    transition: all .4s;
+}
+
+#btn_kors:hover {
+    color: gold;
+    border: 2px solid gold;
+    font-weight: 700;
+}
+
+#btn_kors:hover:after {
+    width: 100%;
+}
+
+a#btn_hasbro {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 25px 35px;
+    background-color: #fff;
+    color: #002FA7;
+    border-radius: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_hasbro:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #ff6a00;
+    transition: all .5s;
+    border-radius: 100px;
+
+}
+
+a#btn_hasbro:hover {
+    color: #ffffff;
+    border-radius: 100px;
+
+}
+
+a#btn_hasbro:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 100px;
+
+}
+
+a#btn_hasbro span {
+    position: relative;
+    z-index: 10;
+}
+
+#btn_lyft {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    font-family: ProximaNova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: .05rem;
+    background-color:white;
+    color:  #e03ac4;
+    font-size: 32px;
+    text-decoration: none;
+    z-index: 3;
+}
+
+
+#btn_lyft:hover {
+    background-color: white;
+    color: white;
+    transition: all 0.5s; 
+    z-index: 5;
+    
+}
+
+#btn_lyft:hover span {
+        margin-right: -300%;
+        transition: all 0.5s;
+}
+
+#btn_samsung {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 15px 25px;
+    font-family: 'Samsung Sans', sans-serif;                                        
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+#btn_samsung:hover {
+    background-color: #143beb;
+    color: #ffffff;
+    border-color: #000000;
+    border-radius: 75%;
+    background-size: 100%;
+    border-width: 5px;
+    transition: all .1; 
+    transform: rotate(-20deg);
+
+}
+
+#btn_samsung:hover span {
+    display: inline-block;
+    transform: rotate(20deg);
+  }
+
+#btn_instagram{
+    display:block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    text-align: center;
+    filter:  grayscale(100%);
+    transition: all 0.6s ease-in-out; 
+}
+
+#btn_instagram img{
+    width:80px;
+    margin: auto;
+    vertical-align: center;
+}
+
+#btn_instagram:hover{
+  filter:  grayscale(0%);
+}
+
+#btn_newyorker {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: normal;
+    display: inline-block;
+    border-radius: 0px;
+    border: 2px solid #000000;
+    color: #000000;
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 15%;
+  }
+
+#btn_newyorker:hover {
+    border-radius: 30px;
+    transition: 1s;
+    background-color: #000000;
+    color: #ffffff;
+    text-shadow: 2px 2px 0px #7d7d7d, 5px 4px 0px rgba(0,0,0,0.15);
+    transition: 0.5s;
+}
+
+
+
+a#btn_craigs {
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    text-decoration: none;
+    color: #006699;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-top: 50%;
+}
+
+a#btn_craigs:hover {
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    color: #005681;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-top: 50%;
+    letter-spacing: 8px;
+    transition: all 0.7s ease-in-out;
+}
+
+a#btn_facebook {
+    display: block;
+    position: relative;
+    margin:auto;
+    margin-top: 85px;
+    font-family: klavika-web, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 85px;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: #1877F2;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: right;
+    width: 25%;
+    height: 25%;
+    line-height: 75px;
+    transition: all .2s;
+
+}
+
+a#btn_facebook:hover {
+    color: #1877F2;
+    background-color: white;
+    border: 2px solid #1877F2;
+}
+
+a#btn_nike {
+    display: block;
+    position: relative;
+    font-family: 'f Finish', sans-serif;
+    font-size: 36px;
+    font-style:italic;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-left: 80px;
+    margin-top: 100px; 
+    transition: all .15s;
+    padding: 10px 14px;
+    width: 20%;
+    height: 20%;
+}
+
+a#btn_nike:hover {
+    background-image: url('../buttons/images/nike-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10px -10px;
+}
+
+a#btn_nike:hover .text {
+    display: none;
+}
+
+a#btn_npr {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    text-decoration:none;
+    font-size: 36px;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    letter-spacing: 5px;
+    padding: 6px 12px;
+    padding-top: 0;
+    transition: all 0.3s;
+}
+
+a#btn_npr #n:hover {
+    font-size: 38px;
+    color: white;
+    background-color: #ed1515;
+    padding: 4px 4px;
+    text-align: center;
+    transition: all 0.35s;
+}
+
+a#btn_npr #p:hover {
+    font-size: 38px;
+    color: white;
+    background-color: black;
+    padding: 4px 4px;
+    text-align: center;
+    transition: all 0.35s;
+}
+
+a#btn_npr #r:hover {
+    font-size: 38px;
+    color: white;
+    background-color: #2e53c1;
+    padding: 4px 4px;
+    text-align: center;
+    transition: all 0.35s;
+}
+
+a#btn_moo {
+    display: block;
+    margin:auto;
+    margin-top: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: circe-rounded, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 36px;
+    color:#05a97d;
+    transition: all 0.35s;
+}
+
+a#btn_moo:hover {
+    animation-name: tilt-shaking;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-size: 42px;
+
+}
+
+
+      a#btn_foreflight {
+        background-color: rgb(33, 76, 120);
+        color: white;
+        display: inline-block;
+        position: relative;
+        margin:auto;
+        margin-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-transform: none;
+        text-decoration: none;
+        transition: all .3s;
+        font-family: proxima-nova, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 30px;
+        border-radius: 50px;
+    }
+    
+    a#btn_foreflight:hover {
+        background-color: rgb(63, 145, 232);
+    }
+    
+    a#btn_foreflight:hover .fa-plane-circle-check {
+        color: rgb(255, 255, 255);
+    }
+    
+    a#btn_foreflight:before {
+        display: block;
+        width: 0;
+        height: 0;
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+
+a#btn_tesla {
+    font-family: gravesend-sans, sans-serif;
+    font-weight: 800;
+    font-style: normal;    
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    text-decoration: none;
+    color:#CC0100;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 12px;
+}
+
+a#btn_tesla:before {
+    display: block;
+    height: 2px;
+    width: 0;
+    margin: auto;
+    background-color: #CC0100;
+    transition: all 0.5s;
+}
+
+a#btn_tesla:after {
+    content:"";
+    display: block;
+    height: 2px;
+    width: 0;
+    margin: auto;
+    background-color: #CC0100;
+    transition: all 0.5s;
+}
+
+a#btn_tesla:hover:after { 
+    width: 80%; 
+}
+
+a#btn_tesla:hover:before { 
+    width: 80%; 
+}
+
+a#btn_garden {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 80px;
+    padding: 10px 150px 0 40px;
+    color: darkgreen;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    font-family: haboro-contrast-normal, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+#btn_garden:hover{
+    color: darkgreen;
+    text-shadow: 0 0 10px darkgreen;
+}
+
+
+#btn_cartoon-network {
+    display: inline-block;
+    left: 50%;
+    right: 50%;
+    margin: auto;
+    transform:translate(-50%, -50%);
+    margin-top: 130px;
+    margin-left: 130px;
+    text-decoration: none;
+    margin-left: 130px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 15px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#btn_cartoon-network:hover{
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: capitalize;
+    border: 3px solid black;
+    border-radius: 100px;
+    color: #000000;
+
+}
+
+
+#btn_the-tonight-show{
+   display: inline-block;
+   margin: auto;
+   margin-top: 90px;
+   text-decoration: none;
+   padding: 10px;
+   height: 60px;
+   width: 60px;
+   color: black;
+   border-radius: 1000px;
+   border: 3px solid black;
+   font-family: 'Samsung Sharp Sans', sans-serif;
+   font-weight: 900;
+}
+
+#btn_the-tonight-show:hover{
+   box-shadow: 10px 1px 1px 1px #ffd900;
+}
+
+
+#btn_bissingers{
+    color:rgb(107, 86, 59);
+    text-shadow: 0 0 10px goldenrod;
+    text-decoration:none;
+    text-align:center;
+    display:inline-block;
+    margin-top:45%;
+    font-size:40px;
+    transition: all 0.6s;
+    font-family: 'Quintessential', cursive;
+    font-weight:bold;
+}
+
+#btn_bissingers:hover{
+    color: goldenrod;
+    text-shadow: none;
+}
+
