@@ -1,0 +1,139 @@
+.leftFront1{
+    color: #FFF9D9;
+}
+
+.leftFront1-current{
+    color: #6E94fb;
+    text-decoration:double overline;
+    margin-left:0;
+}
+
+.dropdown-menu{
+    background-color:rgba(220,38,38,0);
+}
+#dropdownMenuButton1{
+    background-color: rgba(0,0,0,0);
+}
+#my-image:hover {
+    content: url("../img/plant2.png");
+}
+.header{
+    text-align: center;
+}
+.bar{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.bottom{
+    /*background-color: black;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    text-align: center;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+}
+.body{
+    background-image: url("../img/background.png");
+    z-index: 100;
+}
+.nav{
+    position: fixed;
+    margin-top: 10px;
+}
+.sent1{
+    background-color: rgba(0,0,0,0);
+}
+.right1{
+    background-color: rgba(0,0,0,0);
+}
+.font1{
+    color:#F5F5F5;
+    size: 10px;
+    text-align: center
+}
+.btn{
+    color: #F5F5F5;
+    background-color: black;
+    border-color: #F5F5F5;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+p, h3, h5, a{
+    color: #F5F5F5;
+    width: 80%;
+    margin: auto;
+    padding-top: 3%;
+}
+
+h1, h2{
+    width: 80%;
+    margin: auto;
+    color: #FFF9D9;
+    padding-top: 5%;
+}
+
+.footer{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px dashed white; margin: 20px 0;
+}
+.footer p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+img{
+    display: block;
+    justify-content: center;
+    margin: auto ;
+    /*width: 35%;*/
+}
+.big1{
+    width: 50%;
+}
+.big2{
+    width: 35%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:#6E94fb;
+    text-decoration: dotted overline;
+}
+
+.bar a{
+    text-decoration: none;
+    font-size: medium;
+}
+
+.bar a:hover{
+    color: #FFF9D9;
+    text-decoration: dotted overline;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+.Magnetosphere{
+    margin-top: 3%;
+}
+.sentfoot img{
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
