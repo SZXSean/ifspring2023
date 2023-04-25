@@ -1,0 +1,4 @@
+1. typo
+2. small scale--> orbit rotation page-->add image for white spaces
+3. home page logo on top right
+4. change the font size of the bottom part of home page

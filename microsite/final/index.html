@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Saturn-Microsite</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/footer-icon.png">
+</head>
+<body class="body">
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col-lg-2">
+            <div class="dropdown" style="margin:auto;">
+                <div>
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="img/bars.png">
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <br>
+                        <li>
+                                <img src="img/1.png">
+                                <p class="leftFront1-current">HOME </p>
+                        </li>
+                        <br>
+                        <li>
+                            <img src="img/2.png">
+                            <a class="leftFront1" href="p2.html">
+                                
+                                PHYSICAL<br>
+                                CHARACTERISTICS
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <img src="img/3.png">
+                            <a class="leftFront1" href="p3.html">
+                                
+                                ORBIT&<br>
+                                ROTATION
+
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <img src="img/4.png">
+                            <a class="leftFront1" href="p4.html">
+                                
+                                NATURAL<br>
+                                SATELLITES
+
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <img src="img/5.png">
+                            <a class="leftFront1" href="p5.html">
+                                
+                                EXPLORATION<br>
+                                HISTORY
+
+                            </a>
+                        </li>
+                        <br>
+                        <br>
+                        <li>
+                            <img src="img/6.png">
+                            <a class="leftFront1" href="p6.html">
+                                REFERENCE
+                            </a>
+                        </li>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="sent1">
+                <div>
+                    <p class="fs-1" style="color: #FFEE9C; width: 80%; margin-left: 30%; padding-bottom:5%">
+                        S&nbsp;&nbsp;A&nbsp;&nbsp;T&nbsp;&nbsp;U&nbsp;&nbsp;R&nbsp;&nbsp;N
+                    </p>
+                </div>
+
+                <img id="my-image" src="img/plant1.png"
+                     style="width: 100%; height: auto; margin-left:0em; display: block">
+                <!--                <img onclick="trans(this)" id="img2" src="img/plant2.png"-->
+                <!--                     style="width: 100%;height: auto;margin-left:0em;display: none">-->
+
+                <div class="sentfoot" style="margin-bottom: 0">
+                    <p style="color: #F5F5F5;font-size: 20px">
+                        <a class="pc-link" href="p2.html"><img src="img/Vector.png" style="width:10%"></a>
+                        <center><p>Adorned&nbsp; with&nbsp; a&nbsp; dazzling,
+                            &nbsp; complex &nbsp;system &nbsp;of &nbsp; rings, &nbsp;
+                            Saturn &nbsp; is &nbsp; unique&nbsp; in &nbsp; our &nbsp;
+                            solar &nbsp; system. &nbsp;The &nbsp; other &nbsp;
+                            giant &nbsp; plants &nbsp; have &nbsp; rings, &nbsp;
+                            but &nbsp; none &nbsp; are &nbsp; as &nbsp; spectacular &nbsp;
+                            as &nbsp;Saturn's.</p></center> 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="right1" style="margin-top: 20%">
+
+                <p class="font1">
+                    <img src="img/Group 1.png"><br>
+                    Solar System position
+                </p>
+                <br>
+                <br>
+
+
+            </div>
+            <a class="orbit-link" href="p3.html"><img src="img/img.png" style="width: 80%"></a>
+            <br>
+            <p class="font1">
+
+                Average&nbsp;Orbit&nbsp;Distance
+            </p>
+            <span>
+                    <button type="button" class="btn b1" style="width: 45%">1,426,666,422</button>
+                    &nbsp;
+                    <button type="button" class="btn b2" style="width: 45%">888,488,415</button>
+                </span>
+            <p class="font1">
+                Equational&nbsp;Radius&nbsp;
+            </p>
+            <span>
+                    <button type="button" class="btn b3" style="width: 45%">58,232</button>
+                    &nbsp;
+                    <button type="button" class="btn b4" style="width: 45%">36,183</button>
+
+                </span>
+            <p class="font1">
+                Average&nbsp;TemPerature
+            </p>
+            <span>
+                    <button type="button" class="btn b5" style="width: 45%">-138</button>
+                    &nbsp;
+                    <button type="button" class="btn b6" style="width: 45%">-218</button>
+                </span>
+
+        </div>
+    </div>
+</div>
+<!--<footer>
+    <div class="footer">
+        <img src="img/footer-icon.png" style="width: 3%">
+        <p>© Copyright 2023</p>
+    </div>
+</footer>-->
+</body>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script>
+    console.log(document.getElementById("img2"))
+
+    function trans(data) {
+        console.log(data.src);
+        if (data.id === "img1") {
+            let img2 = document.getElementById("img2");
+            data.style.display = "none";
+            img2.style.display = "block";
+        } else {
+            let img1 = document.getElementById("img1");
+            data.style.display = "none";
+            img1.style.display = "block";
+        }
+
+    }
+
+    let b1 = document.querySelector('.b1');
+    b1.addEventListener('mouseover', () => {
+        b1.textContent = 'km';
+    });
+    b1.addEventListener('mouseout', () => {
+        b1.textContent = '1,426,666,422';
+    });
+
+    let b2 = document.querySelector('.b2');
+    b2.addEventListener('mouseover', () => {
+        b2.textContent = 'mi';
+    });
+    b2.addEventListener('mouseout', () => {
+        b2.textContent = '888,488,415';
+    });
+
+    let b3 = document.querySelector('.b3');
+    b3.addEventListener('mouseover', () => {
+        b3.textContent = 'km';
+    });
+    b3.addEventListener('mouseout', () => {
+        b3.textContent = '58,232';
+    });
+
+    let b4 = document.querySelector('.b4');
+    b4.addEventListener('mouseover', () => {
+        b4.textContent = 'mi';
+    });
+    b4.addEventListener('mouseout', () => {
+        b4.textContent = '36,183';
+    });
+
+    let b5 = document.querySelector('.b5');
+    b5.addEventListener('mouseover', () => {
+        b5.textContent = '°C';
+    });
+    b5.addEventListener('mouseout', () => {
+        b5.textContent = '-138';
+    });
+
+    let b6 = document.querySelector('.b6');
+    b6.addEventListener('mouseover', () => {
+        b6.textContent = '°F';
+    });
+    b6.addEventListener('mouseout', () => {
+        b6.textContent = '-218';
+    });
+
+
+</script>
+</html>
