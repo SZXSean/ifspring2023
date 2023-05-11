@@ -1,0 +1,81 @@
+body{
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+header{
+    text-align: center;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    margin-top: -35px;
+    color: #002fa7;
+}
+
+.content{
+    margin-left: 180px;
+}
+
+.portfolio{
+    display: inline-block;
+    width: 320px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    border: 1px solid  white;
+    box-shadow: 1px 2px 20px lightgray;
+    
+}
+
+#project1{
+    margin-right: 120px;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.saturn{
+    padding-bottom: 40px;
+}
+
+footer{
+   margin: 32px;
+
+}
+.footer p{
+    font-size: 14px;
+    text-align: center;
+
+}
+.email{
+    color: #002fa7;
+}
+.text{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 10px;
+
+}
+.text p{
+  font-size: 16px;
+}
+.portfolio:hover{
+    box-shadow: 2px 2px 20px grey;
+    transition: all 0.1s;
+}
+.text:hover{
+    color: #002fa7;
+    transition: all 0.1s;
+}
